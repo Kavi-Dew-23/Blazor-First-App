@@ -2,7 +2,7 @@ using System;
 
 namespace FirstApp.Frontend.Models;
 
-public class ProductTable
+public class ProductDetails
 {
     public int Id {get; set; }
 

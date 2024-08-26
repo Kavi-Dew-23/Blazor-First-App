@@ -26,3 +26,4 @@ C:\Users\KavindyaDewapura\Desktop\C# learning\Blazor app you tube\Blazor app\Fir
 C:\Users\KavindyaDewapura\Desktop\C# learning\Blazor app you tube\Blazor app\FirstApp.Frontend\obj\Debug\net8.0\FirstApp.Frontend.pdb
 C:\Users\KavindyaDewapura\Desktop\C# learning\Blazor app you tube\Blazor app\FirstApp.Frontend\obj\Debug\net8.0\FirstApp.Frontend.genruntimeconfig.cache
 C:\Users\KavindyaDewapura\Desktop\C# learning\Blazor app you tube\Blazor app\FirstApp.Frontend\obj\Debug\net8.0\ref\FirstApp.Frontend.dll
+c:\Users\KavindyaDewapura\Desktop\C# learning\Blazor app you tube\Blazor app\FirstApp.Frontend\obj\Debug\net8.0\FirstApp.Frontend.sourcelink.json

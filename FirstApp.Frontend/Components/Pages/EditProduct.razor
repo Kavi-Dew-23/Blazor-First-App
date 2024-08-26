@@ -1,0 +1,39 @@
+﻿@page "/editproduct"
+@using Models
+
+<PageTitle>Create Product</PageTitle>
+<h3>Create new Product</h3>
+
+<div class="row">
+
+<div class="col-md-12">
+
+<EditForm Model="@product" FormName="editProduct">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name: </label>
+    <InputText id="name" @bind-Value="product.Name" class="form-control" />
+  </div>
+  <div class="mb-3">
+    <label for="published" class="form-label">Published: </label>
+    <InputSelect id="published" @bind-Value="product.Published" class="form-select">
+    </InputSelect>
+
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label">Price: </label>
+    <InputNumber id="price" @bind-Value="product.Price" class="form-control" />
+  </div>
+  <div class="mb-3">
+    <label for="releaseAt" class="form-label">Release At: </label>
+    <InputDate id="releaseAt" @bind-Value="product.ReleaseAt" class="form-control" />
+  </div>
+</EditForm>
+</div>
+</div>
+@code {
+    private ProductDetails product {get; set; } = new()
+    {
+        Name = string.Empty,
+        ReleaseAt = DateOnly.FromDateTime(DateTime.UtcNow)
+    };
+}

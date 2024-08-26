@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "1day+QXz0TYyZpjlTv/oed5dy9oW9mLfGZaUlWmt7DI=",
+  "Source": "FirstApp.Frontend",
+  "BasePath": "_content/FirstApp.Frontend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstApp.Frontend\\wwwroot",
+      "Source": "FirstApp.Frontend",
+      "ContentRoot": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\wwwroot\\",
+      "BasePath": "_content/FirstApp.Frontend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FirstApp.Frontend.styles.css",
+      "SourceId": "FirstApp.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/FirstApp.Frontend",
+      "RelativePath": "FirstApp.Frontend.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FirstApp.Frontend.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FirstApp.Frontend.bundle.scp.css",
+      "SourceId": "FirstApp.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/FirstApp.Frontend",
+      "RelativePath": "FirstApp.Frontend.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FirstApp.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\wwwroot\\app.css",
+      "SourceId": "FirstApp.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\wwwroot\\",
+      "BasePath": "_content/FirstApp.Frontend",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FirstApp.Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FirstApp.Frontend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KavindyaDewapura\\Desktop\\C# learning\\Blazor app you tube\\Blazor app\\FirstApp.Frontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FirstApp.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FirstApp.Frontend.props",
+      "PackagePath": "build\\FirstApp.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FirstApp.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\FirstApp.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FirstApp.Frontend.props",
+      "PackagePath": "buildTransitive\\FirstApp.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

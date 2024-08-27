@@ -38,7 +38,7 @@ public class ProductsClient
     // Add game into table
     public void AddProduct(ProductDetails product)
     {
-        // if the publishedId is null, always there ahould be a value for publiesed or not
+        // if the publishedId is null, always there should be a value for published or not
         ArgumentException.ThrowIfNullOrWhiteSpace(product.PublishedId);
         
         var published = publishes.Single(published => published.Id == int.Parse(product.PublishedId));

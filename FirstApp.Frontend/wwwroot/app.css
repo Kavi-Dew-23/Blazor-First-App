@@ -27,3 +27,44 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #0a3e7d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 1rem;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #679dee;
+    text-decoration: none;
+}
+.sidebar .nav-item{
+    color: #ffffff;
+}
+.sidebar .nav-item.selected{
+    color: #ffffff;
+}
+.content{
+    margin-left: 150px;
+    padding: 4px;
+}
+.navbar{
+    margin-left: 260px;
+    height: 60px;
+}
+.form-control{
+    height: auto;
+    width: 10px;
+
+}

@@ -35,10 +35,12 @@ public class ProductsClient
     private readonly Published[] publishes = new PublishesClient().GetPublishes();
     public ProductTable[] GetProducts() => [..products];
 
+    // Add game into table
     public void AddProduct(ProductDetails product)
     {
         // if the publishedId is null, always there ahould be a value for publiesed or not
         ArgumentException.ThrowIfNullOrWhiteSpace(product.PublishedId);
+        
         var published = publishes.Single(published => published.Id == int.Parse(product.PublishedId));
         var productTable = new ProductTable
         {

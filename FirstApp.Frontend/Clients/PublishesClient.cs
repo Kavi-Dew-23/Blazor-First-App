@@ -14,7 +14,7 @@ public class PublishesClient
         },
         new()
         {
-            Id = 1,
+            Id = 2,
             Name = "Draft"
         },
 

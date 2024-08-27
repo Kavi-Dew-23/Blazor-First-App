@@ -56,8 +56,9 @@ h1:focus {
     color: #ffffff;
 }
 .content{
-    margin-left: 140px;
-    margin-top: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+    padding: 10px;
 
 }
 .navbar{

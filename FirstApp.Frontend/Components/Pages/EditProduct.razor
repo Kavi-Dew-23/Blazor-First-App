@@ -1,5 +1,7 @@
 ﻿@page "/editproduct"
 @inject NavigationManager NavigationManager
+@inject ProductsClient ProductsClient
+@inject PublishesClient PublishesClient
 
 
 <div class="content">
@@ -65,21 +67,17 @@
     ReleaseAt = DateOnly.FromDateTime(DateTime.UtcNow)
   };
 
-  private PublishesClient publishesClient = new();
-
-  private ProductsClient productsClient = new();
-
   public Published[]? publishes;
 
   protected override void OnInitialized()
   {
-    publishes = publishesClient.GetPublishes();
+    publishes = PublishesClient.GetPublishes();
   }
   
   // Add the products to the list
   private void HandleSubmit()
   {
-    productsClient.AddProduct(product);
+    ProductsClient.AddProduct(product);
     NavigationManager.NavigateTo("/");
   }
 

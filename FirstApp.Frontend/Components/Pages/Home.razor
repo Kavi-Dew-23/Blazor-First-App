@@ -1,5 +1,5 @@
 ﻿@page "/"
-
+@inject ProductsClient Client
 
 <div class="content">
 
@@ -50,12 +50,12 @@ else
 </div>
 </div>
 @code{
-    private ProductsClient client = new();
+    
     private ProductTable[]? products; 
 
     protected override void OnInitialized()
     {  
-        products = client.GetProducts();
+        products = Client.GetProducts();
 
     }
 }

@@ -1,9 +1,12 @@
+using FirstApp.Frontend.Clients;
 using FirstApp.Frontend.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
+builder.Services.AddSingleton<ProductsClient>();
+builder.Services.AddSingleton<PublishesClient>();
 
 var app = builder.Build();
 

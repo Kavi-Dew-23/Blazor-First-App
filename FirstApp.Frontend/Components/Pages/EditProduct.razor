@@ -1,6 +1,5 @@
 ﻿@page "/editproduct"
-@using Models
-@using Clients
+
 
 
 <div class="content">
@@ -25,7 +24,7 @@
 
     <div class="col-md-12">
 
-      <EditForm Model="@product" FormName="editProduct">
+      <EditForm Model="@product" FormName="editProduct" OnSubmit="HandleSubmit">
         <div class="mb-3">
           <label for="name" class="form-label">Name: </label>
           <InputText id="name" @bind-Value="product.Name" class="form-control" />
@@ -49,25 +48,36 @@
           <label for="releaseAt" class="form-label">Release At: </label>
           <InputDate id="releaseAt" @bind-Value="product.ReleaseAt" class="form-control" />
         </div>
+        <button type="submit"class="btn btn-primary">Save</button>
       </EditForm>
     </div>
   </div>
 }
 </div>
 @code {
-    private ProductDetails product {get; set; } = new()
-    {
-        Name = string.Empty,
-        ReleaseAt = DateOnly.FromDateTime(DateTime.UtcNow)
-    };
+  // to get user inout all data of product
+  [SupplyParameterFromForm]
+  private ProductDetails product { get; set; } = new()
+  {
 
-    private PublishesClient publishesClient = new();
+    Name = string.Empty,
+    ReleaseAt = DateOnly.FromDateTime(DateTime.UtcNow)
+  };
 
-   public Published[]? publishes;
+  private PublishesClient publishesClient = new();
 
-   protected override void OnInitialized()
-   {
+  private ProductsClient productsClient = new();
+
+  public Published[]? publishes;
+
+  protected override void OnInitialized()
+  {
     publishes = publishesClient.GetPublishes();
-   }
+  }
+
+  private void HandleSubmit()
+  {
+    productsClient.AddProduct(product);
+  }
 
 }

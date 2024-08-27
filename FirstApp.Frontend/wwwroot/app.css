@@ -56,11 +56,12 @@ h1:focus {
     color: #ffffff;
 }
 .content{
-    margin-left: 150px;
-    padding: 4px;
+    margin-left: 140px;
+    margin-top: 20px;
+
 }
 .navbar{
-    margin-left: 260px;
+    margin-left: 250px;
     height: 60px;
 }
 .form-control{
